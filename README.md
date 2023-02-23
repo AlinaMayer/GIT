@@ -41,3 +41,27 @@
 ```git config user.email user_email``` создание локального пользователя (почта)
 
 ![git config mail](https://user-images.githubusercontent.com/125362721/220988062-2eec360c-305b-4553-ae1a-b9165614877e.jpg)
+
+```git config --global user.name "user name"``` создание глобального пользователя (имя)
+
+![git config user global](https://user-images.githubusercontent.com/125362721/220990394-66ebfd1c-0b11-4ce8-a21d-26ea6c0dd3f8.jpg)
+
+```git config --global user.email user_email``` создание глобального пользователя (почта)
+
+![git config mail global](https://user-images.githubusercontent.com/125362721/220990683-f7f626ff-450d-452c-b67a-84e9d3a59122.jpg)
+
+```git config --unset user.name``` удаление локального пользователя (имя)
+
+![git config unset user](https://user-images.githubusercontent.com/125362721/220990907-a4914bbb-7a15-4da5-aa22-86811fe7f534.jpg)
+
+```git config --unset user.email``` удаление локального пользователя (почта)
+
+![git config unset mail](https://user-images.githubusercontent.com/125362721/220991143-1be49f4c-0163-45c2-a108-8a212b8384cc.jpg)
+
+```cd path_to_the_folder``` переход в заданную папку
+
+![cd](https://user-images.githubusercontent.com/125362721/220991491-3cce165b-7a0f-4ec6-b01a-ab99caedc35d.jpg)
+
+```git rm -r --cached file_name``` удалить файл из индексации
+
+![Git rm -r](https://user-images.githubusercontent.com/125362721/220991883-3443207b-7a9d-4ad6-80c8-1bb225da2a19.jpg)
