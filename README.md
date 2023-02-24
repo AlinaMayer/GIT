@@ -65,3 +65,41 @@
 ```git rm -r --cached file_name``` удалить файл из индексации
 
 ![Git rm -r](https://user-images.githubusercontent.com/125362721/220991883-3443207b-7a9d-4ad6-80c8-1bb225da2a19.jpg)
+
+```git rm -r file_name``` удаление файла и автоматическое добавление этого изменения в индекс
+
+![Git rm -r](https://user-images.githubusercontent.com/125362721/221205043-018afb41-2e1f-4e56-a609-b7dc9616e4c3.jpg)
+
+```git rm -f file_name``` принудительное удаление файла, несмотря на непроиндексированные правки внутри
+
+![Git rm -f](https://user-images.githubusercontent.com/125362721/221205453-ff87eb86-4e8a-46c9-a8e9-c459d2443a19.jpg)
+
+```git mv file_name new_file_name``` переименование файла
+
+![Git mv](https://user-images.githubusercontent.com/125362721/221205996-00a7a112-4cb9-4f9f-8a44-47e58971b6d9.jpg)
+
+```git log``` показывает все коммиты, которые были выполнены
+
+![git log](https://user-images.githubusercontent.com/125362721/221206322-1aa8a5d7-21ce-4d77-af00-ba1ff114586b.jpg)
+
+```git log -p``` дополнительно показывает правки в коммитах
+
+![git log p](https://user-images.githubusercontent.com/125362721/221206639-896ff6d2-b55f-4c31-92be-4a387a67de27.jpg)
+
+```git log --oneline``` показывает только номера коммитов и комментарии к ним
+
+![git log oneline](https://user-images.githubusercontent.com/125362721/221207112-1caaa47c-b5c4-4f30-b6c3-6e36fa0482b6.jpg)
+
+```git show``` показывает информацию по последнему коммиту
+
+![git show](https://user-images.githubusercontent.com/125362721/221207477-6098143c-a18e-41ec-a2cb-e0ebd316d248.jpg)
+
+```git show first_commit_numbers``` показывает определенный коммит по первым цифрам его номера
+
+![git show commit](https://user-images.githubusercontent.com/125362721/221207740-7e37f3ad-7b1d-498f-9451-a723409051cb.jpg)
+
+```git clone``` загружает удаленный репозиторий
+
+![git clone](https://user-images.githubusercontent.com/125362721/221209524-5b4398d0-475a-4a3a-9fbb-99fcecf8f48e.jpg)
+
+
