@@ -152,3 +152,12 @@
 
 ![git merge abort](https://user-images.githubusercontent.com/125362721/221214807-56e77d5e-1952-4395-a811-3a8323b914cb.jpg)
 
+```git reset --hard first_commit_numbers``` откатывает до состояния, когда этот конкретный файл еще не был создан
+
+![git reset hard](https://user-images.githubusercontent.com/125362721/221220306-29f597e5-af64-4f82-841d-e486a0f3c77a.jpg)
+
+```git reset --hard ORIG_HEAD``` откатывает произведенный хард ресет
+
+![git reset hard orighead](https://user-images.githubusercontent.com/125362721/221220759-c1fd6e8f-76fb-472d-8058-6632b698f531.jpg)
+
+
