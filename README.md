@@ -102,4 +102,53 @@
 
 ![git clone](https://user-images.githubusercontent.com/125362721/221209524-5b4398d0-475a-4a3a-9fbb-99fcecf8f48e.jpg)
 
+```git push origin main``` отправляет файлы в удаленный репозиторий
+
+![git push](https://user-images.githubusercontent.com/125362721/221209930-37d6f276-cfaa-437a-910f-306f980f9a44.jpg)
+
+```git pull``` подтягивает изменения в удаленном репозитории на наш локальный 
+
+![git pull](https://user-images.githubusercontent.com/125362721/221210169-aab4ec6f-b300-420f-ab15-6c4752f4a416.jpg)
+
+## Работа с ветками
+
+```git branch -v``` показывает все ветки с последним коммитом напротив названия
+
+![git branch v](https://user-images.githubusercontent.com/125362721/221210970-70fb1980-699b-4a0e-beed-d1ae28a4fcdf.jpg)
+
+```git branch branch_name``` создает новую ветку
+
+![git branch](https://user-images.githubusercontent.com/125362721/221211178-b670c166-a55a-43dd-a4ae-c0af3dc1e0df.jpg)
+
+```git branch -d branch_name``` удаляет ветку
+
+![git branch d](https://user-images.githubusercontent.com/125362721/221211433-83dbb84d-31a7-4c0b-83a6-a69cf5891539.jpg)
+
+```git checkout branch_name``` переключает на выбранную ветку
+
+![git checkout](https://user-images.githubusercontent.com/125362721/221211641-9ab32bd0-8dc9-4cab-88f4-4ebdf9ba1156.jpg)
+
+```git checkout file_name``` откат изменений до файла из индекса
+
+![git checkout file](https://user-images.githubusercontent.com/125362721/221212077-0261e62d-be3e-4bfc-89e7-25734237b01b.jpg)
+
+```git checkout -b branch_name``` создать ветку и сразу же на нее переключиться
+
+![git checkout b](https://user-images.githubusercontent.com/125362721/221212469-45a7b81c-5d19-4e13-86d8-3f770516b617.jpg)
+
+```git stash``` сохраняет все незакоммиченные изменения, позволяя переключиться на другую ветку без потери данных
+
+![git stash](https://user-images.githubusercontent.com/125362721/221212945-ac89469f-d66d-47d2-b5bf-1800b550aae8.jpg)
+
+```git stash pop``` возвращает все сохраненные изменения на ту ветку, в которой мы находимся
+
+![git stash pop](https://user-images.githubusercontent.com/125362721/221213853-94a00517-8684-44f6-8a69-b552fe5a22c8.jpg)
+
+```git merge branch_name``` сливает изменения из указанной ветки в ту, где мы находимся на данный момент
+
+![git merge](https://user-images.githubusercontent.com/125362721/221214218-30c3f022-d2fc-4b21-87fe-062805921e46.jpg)
+
+```git merge --abort``` отмена слияния
+
+![git merge abort](https://user-images.githubusercontent.com/125362721/221214807-56e77d5e-1952-4395-a811-3a8323b914cb.jpg)
 
